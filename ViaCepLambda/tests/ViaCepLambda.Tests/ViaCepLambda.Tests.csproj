@@ -18,4 +18,9 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ViaCepLambda.Domain\ViaCepLambda.Domain.csproj" />
+    <ProjectReference Include="..\..\src\ViaCepLambda.Infrastructure\ViaCepLambda.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
